@@ -1,2 +1,2 @@
 # lcdtest
-Prototype testing of MHS LCD
+Public testground, accessible by all
