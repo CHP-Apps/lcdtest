@@ -1,278 +1,294 @@
 .home {
-    background-color: rgba(255, 255, 255, 1.0);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .home .div {
-    background-color: rgba(255, 255, 255, 1.0);
-    background: linear-gradient(
-      180deg,
-      rgb(207, 211, 252) 0%,
-      rgb(246, 229, 228) 100%
-    );
-    width: 240px;
-    height: 320px;
-    position: relative;
-  }
-  
-  .home .text-wrapper {
-    position: absolute;
-    width: 206px;
-    top: 85px;
-    left: 17px;
-    font-family: var(--ios-title-2-font-family);
-    font-weight: var(--ios-title-2-font-weight);
-    color: #1d1f39;
-    font-size: var(--ios-title-2-font-size);
-    text-align: center;
-    letter-spacing: var(--ios-title-2-letter-spacing);
-    line-height: var(--ios-title-2-line-height);
-    font-style: var(--ios-title-2-font-style);
-  }
-  
-  .home .status-bar {
-    display: flex;
-    width: 240px;
-    align-items: center;
-    justify-content: space-between;
-    padding: 16px;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
-  .home .frame {
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    position: relative;
-    flex: 0 0 auto;
-  }
-  
-  .home .cellular-connection {
-    position: relative;
-    width: 19.2px;
-    height: 12px;
-  }
-  
-  .home .text-wrapper-2 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1.00px;
-    font-family: var(--ios-disclaimer-font-family);
-    font-weight: var(--ios-disclaimer-font-weight);
-    color: #000000;
-    font-size: var(--ios-disclaimer-font-size);
-    letter-spacing: var(--ios-disclaimer-letter-spacing);
-    line-height: var(--ios-disclaimer-line-height);
-    white-space: nowrap;
-    font-style: var(--ios-disclaimer-font-style);
-  }
-  
-  .home .battery {
-    position: relative;
-    width: 27.23px;
-    height: 13px;
-  }
-  
-  .home .overlap-group {
-    position: absolute;
-    width: 25px;
-    height: 13px;
-    top: 0;
-    left: 0;
-    border-radius: 4.3px;
-    border: 1px solid;
-    border-color: #00000059;
-  }
-  
-  .home .capacity {
-    position: relative;
-    width: 21px;
-    height: 9px;
-    top: 1px;
-    left: 1px;
-    background-color: #000000;
-    border-radius: 2.5px;
-  }
-  
-  .home .cap {
-    position: absolute;
-    width: 1px;
-    height: 4px;
-    top: 5px;
-    left: 26px;
-  }
-  
-  .home .page-control {
-    display: inline-flex;
-    align-items: center;
-    gap: 16px;
-    padding: 1px;
-    position: absolute;
-    top: 292px;
-    left: 78px;
-  }
-  
-  .home .glyphs-home {
-    position: relative;
-    width: 16px;
-    height: 16.33px;
-    margin-bottom: -0.33px;
-  }
-  
-  .home .wifi {
-    position: relative;
-    width: 17.14px;
-    height: 12.33px;
-  }
-  
-  .home .pro {
-    position: relative;
-    width: 16px;
-    height: 16px;
-  }
-  
-  .home .m-pro {
-    height: 16px;
-  }
-  
-  .home .group {
-    position: relative;
-    width: 14px;
-    height: 14px;
-    top: 1px;
-    left: 1px;
-  }
-  
-  .home .overlap-group-2 {
-    position: relative;
-    width: 16px;
-    height: 16px;
-    top: -1px;
-    left: -1px;
-    background-color: #afafaf;
-    border-radius: 2.67px;
-  }
-  
-  .home .rectangle {
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    top: 4px;
-    left: 4px;
-    border-radius: 1.33px;
-    border: 1.2px solid;
-    border-color: #f5e5e5;
-  }
-  
-  .home .overlap {
-    position: absolute;
-    width: 3px;
-    height: 1px;
-    top: 2px;
-    left: 7px;
-  }
-  
-  .home .ellipse {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    top: 0;
-    left: 1px;
-    background-color: #f5e5e5;
-    border-radius: 0.6px;
-  }
-  
-  .home .line {
-    position: absolute;
-    width: 3px;
-    height: 1px;
-    top: 0;
-    left: 0;
-  }
-  
-  .home .element {
-    position: absolute;
-    height: 24px;
-    top: 61px;
-    left: 88px;
-    font-family: var(--ios-body-font-family);
-    font-weight: var(--ios-body-font-weight);
-    color: #3c3c3c;
-    font-size: var(--ios-body-font-size);
-    text-align: center;
-    letter-spacing: var(--ios-body-letter-spacing);
-    line-height: var(--ios-body-line-height);
-    white-space: nowrap;
-    font-style: var(--ios-body-font-style);
-  }
-  
-  .home .element-focus {
-    display: flex;
-    width: 208px;
-    align-items: flex-start;
-    gap: 8px;
-    padding: 12px 14px;
-    position: absolute;
-    top: 168px;
-    left: 16px;
-    background-color: #5c5c5c14;
-    border-radius: 20px;
-  }
-  
-  .home .symbol {
-    position: relative;
-    width: 24px;
-    height: 24px;
-    background-blend-mode: luminosity;
-  }
-  
-  .home .title-and-detail {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    position: relative;
-    flex: 1;
-    flex-grow: 1;
-  }
-  
-  .home .text-wrapper-3 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1.00px;
-    font-family: var(--ios-headline-font-family);
-    font-weight: var(--ios-headline-font-weight);
-    color: #1d1f3a;
-    font-size: var(--ios-headline-font-size);
-    letter-spacing: var(--ios-headline-letter-spacing);
-    line-height: var(--ios-headline-line-height);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    font-style: var(--ios-headline-font-style);
-  }
-  
-  .home .text-wrapper-4 {
-    position: relative;
-    width: fit-content;
-    font-family: "SF Pro Text-Medium", Helvetica;
-    font-weight: 500;
-    color: #1d1f3ab2;
-    font-size: 14px;
-    letter-spacing: -0.08px;
-    line-height: 18px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-  }
+  background-color: rgba(255, 255, 255, 1.0);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.home .div {
+  background-color: rgba(255, 255, 255, 1.0);
+  background: linear-gradient(
+    180deg,
+    rgb(0, 0, 0) 0%,
+    rgb(7.14, 33.66, 15.98) 100%
+  );
+  width: 240px;
+  height: 320px;
+  position: relative;
+}
+
+.home .page-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  padding: 1px;
+  position: absolute;
+  top: 292px;
+  left: 79px;
+}
+
+.home .glyphs-home {
+  position: relative;
+  width: 16px;
+  height: 16.33px;
+  margin-bottom: -0.33px;
+}
+
+.home .wifi {
+  position: relative;
+  width: 17.14px;
+  height: 12.33px;
+}
+
+.home .pro {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+
+.home .m-pro {
+  height: 16px;
+}
+
+.home .group {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  top: 1px;
+  left: 1px;
+}
+
+.home .overlap-group {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  top: -1px;
+  left: -1px;
+  background-color: #777777;
+  border-radius: 2.67px;
+}
+
+.home .rectangle {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 4px;
+  left: 4px;
+  border-radius: 1.33px;
+  border: 1.2px solid;
+  border-color: #2b2b2b;
+}
+
+.home .overlap {
+  position: absolute;
+  width: 3px;
+  height: 1px;
+  top: 2px;
+  left: 7px;
+}
+
+.home .ellipse {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 0;
+  left: 1px;
+  background-color: #2c2c2c;
+  border-radius: 0.6px;
+}
+
+.home .line {
+  position: absolute;
+  width: 3px;
+  height: 1px;
+  top: 0;
+  left: 0;
+}
+
+.home .status-bar {
+  display: flex;
+  width: 240px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.home .frame {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home .cellular-connection {
+  position: relative;
+  width: 19.2px;
+  height: 12px;
+}
+
+.home .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--ios-disclaimer-font-family);
+  font-weight: var(--ios-disclaimer-font-weight);
+  color: white;
+  font-size: var(--ios-disclaimer-font-size);
+  letter-spacing: var(--ios-disclaimer-letter-spacing);
+  line-height: var(--ios-disclaimer-line-height);
+  white-space: nowrap;
+  font-style: var(--ios-disclaimer-font-style);
+}
+
+.home .battery {
+  position: relative;
+  width: 27.23px;
+  height: 13px;
+}
+
+.home .capacity-wrapper {
+  position: absolute;
+  width: 25px;
+  height: 13px;
+  top: 0;
+  left: 0;
+  border-radius: 4.3px;
+  border: 1px solid;
+  border-color: #ffffff59;
+}
+
+.home .capacity {
+  position: relative;
+  width: 21px;
+  height: 9px;
+  top: 1px;
+  left: 1px;
+  background-color: #ffffff;
+  border-radius: 2.5px;
+}
+
+.home .cap {
+  position: absolute;
+  width: 1px;
+  height: 4px;
+  top: 5px;
+  left: 26px;
+}
+
+.home .element-focus {
+  display: flex;
+  width: 208px;
+  height: 66px;
+  align-items: center;
+  gap: 8px;
+  padding: 0px 14px;
+  position: absolute;
+  top: 128px;
+  left: 16px;
+  background-color: #33333359;
+  border-radius: 20px;
+}
+
+.home .symbol {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #000000;
+  border-radius: 100px;
+  background-blend-mode: luminosity;
+}
+
+.home .hotspot {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  left: 10px;
+  object-fit: cover;
+}
+
+.home .title-and-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.home .text-wrapper-2 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: var(--ios-title-3-font-family);
+  font-weight: var(--ios-title-3-font-weight);
+  color: #ffffff;
+  font-size: var(--ios-title-3-font-size);
+  letter-spacing: var(--ios-title-3-letter-spacing);
+  line-height: var(--ios-title-3-line-height);
+  font-style: var(--ios-title-3-font-style);
+}
+
+.home .text-wrapper-3 {
+  position: relative;
+  align-self: stretch;
+  font-family: "SF Pro-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff54;
+  font-size: 14px;
+  letter-spacing: -0.08px;
+  line-height: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.home .tall-body {
+  position: absolute;
+  width: 162px;
+  height: 72px;
+  top: 48px;
+  left: 9px;
+}
+
+.home .overlap-2 {
+  position: relative;
+  width: 146px;
+  height: 59px;
+  top: 6px;
+  left: 7px;
+}
+
+.home .content {
+  position: absolute;
+  top: 18px;
+  left: 0;
+  font-family: "SF Pro-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 34px;
+  letter-spacing: 0;
+  line-height: 41px;
+  white-space: nowrap;
+}
+
+.home .title {
+  position: absolute;
+  width: 146px;
+  top: 0;
+  left: 0;
+  font-family: "SF Pro-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
