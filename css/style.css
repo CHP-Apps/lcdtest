@@ -1,24 +1,24 @@
-.home-wifi-offload {
+.home {
   background-color: rgba(255, 255, 255, 1.0);
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100%;
+  width: 50%;
 }
 
-.home-wifi-offload .div {
+.home .div {
   background-color: rgba(255, 255, 255, 1.0);
   background: linear-gradient(
     180deg,
-    rgb(15, 15, 15) 100%,
-    rgb(15.39, 15.39, 15.39) 100%
+    rgb(0, 0, 0) 0%,
+    rgb(7.14, 33.66, 15.98) 100%
   );
-  width: 240px;
+  width: 120px;
   height: 320px;
   position: relative;
 }
 
-.home-wifi-offload .page-control {
+.home .page-control {
   display: inline-flex;
   align-items: center;
   gap: 16px;
@@ -28,30 +28,30 @@
   left: 79px;
 }
 
-.home-wifi-offload .glyphs-home {
+.home .glyphs-home {
   position: relative;
   width: 16px;
   height: 16.33px;
   margin-bottom: -0.33px;
 }
 
-.home-wifi-offload .wifi {
+.home .wifi {
   position: relative;
   width: 17.14px;
   height: 12.33px;
 }
 
-.home-wifi-offload .pro {
+.home .pro {
   position: relative;
   width: 16px;
   height: 16px;
 }
 
-.home-wifi-offload .m-pro {
+.home .m-pro {
   height: 16px;
 }
 
-.home-wifi-offload .group {
+.home .group {
   position: relative;
   width: 14px;
   height: 14px;
@@ -59,7 +59,7 @@
   left: 1px;
 }
 
-.home-wifi-offload .overlap-group {
+.home .overlap-group {
   position: relative;
   width: 16px;
   height: 16px;
@@ -69,7 +69,7 @@
   border-radius: 2.67px;
 }
 
-.home-wifi-offload .rectangle {
+.home .rectangle {
   position: absolute;
   width: 8px;
   height: 8px;
@@ -80,7 +80,7 @@
   border-color: #2b2b2b;
 }
 
-.home-wifi-offload .overlap {
+.home .overlap {
   position: absolute;
   width: 3px;
   height: 1px;
@@ -88,7 +88,7 @@
   left: 7px;
 }
 
-.home-wifi-offload .ellipse {
+.home .ellipse {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -98,7 +98,7 @@
   border-radius: 0.6px;
 }
 
-.home-wifi-offload .line {
+.home .line {
   position: absolute;
   width: 3px;
   height: 1px;
@@ -106,7 +106,7 @@
   left: 0;
 }
 
-.home-wifi-offload .status-bar {
+.home .status-bar {
   display: flex;
   width: 240px;
   align-items: center;
@@ -117,7 +117,7 @@
   left: 0;
 }
 
-.home-wifi-offload .frame {
+.home .frame {
   display: inline-flex;
   align-items: center;
   gap: 4px;
@@ -125,19 +125,19 @@
   flex: 0 0 auto;
 }
 
-.home-wifi-offload .cellular-connection {
+.home .cellular-connection {
   position: relative;
   width: 19.2px;
   height: 12px;
 }
 
-.home-wifi-offload .text-wrapper {
+.home .text-wrapper {
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
   font-family: var(--ios-disclaimer-font-family);
   font-weight: var(--ios-disclaimer-font-weight);
-  color: var(--grayscalewhite);
+  color: white;
   font-size: var(--ios-disclaimer-font-size);
   letter-spacing: var(--ios-disclaimer-letter-spacing);
   line-height: var(--ios-disclaimer-line-height);
@@ -145,13 +145,13 @@
   font-style: var(--ios-disclaimer-font-style);
 }
 
-.home-wifi-offload .battery {
+.home .battery {
   position: relative;
   width: 27.23px;
   height: 13px;
 }
 
-.home-wifi-offload .capacity-wrapper {
+.home .capacity-wrapper {
   position: absolute;
   width: 25px;
   height: 13px;
@@ -162,7 +162,7 @@
   border-color: #ffffff59;
 }
 
-.home-wifi-offload .capacity {
+.home .capacity {
   position: relative;
   width: 21px;
   height: 9px;
@@ -172,7 +172,7 @@
   border-radius: 2.5px;
 }
 
-.home-wifi-offload .cap {
+.home .cap {
   position: absolute;
   width: 1px;
   height: 4px;
@@ -180,7 +180,7 @@
   left: 26px;
 }
 
-.home-wifi-offload .element-focus {
+.home .element-focus {
   display: flex;
   width: 208px;
   height: 66px;
@@ -190,20 +190,20 @@
   position: absolute;
   top: 128px;
   left: 16px;
-  background-color: #00000033;
+  background-color: #33333359;
   border-radius: 20px;
 }
 
-.home-wifi-offload .symbol {
+.home .symbol {
   position: relative;
   width: 40px;
   height: 40px;
-  background-color: #222222;
+  background-color: #000000;
   border-radius: 100px;
   background-blend-mode: luminosity;
 }
 
-.home-wifi-offload .hotspot {
+.home .hotspot {
   position: absolute;
   width: 20px;
   height: 20px;
@@ -212,7 +212,7 @@
   object-fit: cover;
 }
 
-.home-wifi-offload .title-and-detail {
+.home .title-and-detail {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -222,7 +222,7 @@
   flex-grow: 1;
 }
 
-.home-wifi-offload .text-wrapper-2 {
+.home .text-wrapper-2 {
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
@@ -235,7 +235,7 @@
   font-style: var(--ios-title-3-font-style);
 }
 
-.home-wifi-offload .text-wrapper-3 {
+.home .text-wrapper-3 {
   position: relative;
   align-self: stretch;
   font-family: "SF Pro-Medium", Helvetica;
@@ -251,46 +251,7 @@
   -webkit-box-orient: vertical;
 }
 
-.home-wifi-offload .element-x-focus {
-  display: flex;
-  width: 208px;
-  height: 66px;
-  align-items: center;
-  gap: 8px;
-  padding: 0px 14px;
-  position: absolute;
-  top: 198px;
-  left: 16px;
-  background-color: #00000033;
-  border-radius: 20px;
-}
-
-.home-wifi-offload .img {
-  position: relative;
-  width: 40px;
-  height: 40px;
-  background-blend-mode: luminosity;
-}
-
-.home-wifi-offload .text-wrapper-4 {
-  position: relative;
-  align-self: stretch;
-  margin-top: -1.00px;
-  font-family: var(--ios-title-3-font-family);
-  font-weight: var(--ios-title-3-font-weight);
-  color: #ffffff;
-  font-size: var(--ios-title-3-font-size);
-  letter-spacing: var(--ios-title-3-letter-spacing);
-  line-height: var(--ios-title-3-line-height);
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
-  font-style: var(--ios-title-3-font-style);
-}
-
-.home-wifi-offload .tall-body {
+.home .tall-body {
   position: absolute;
   width: 162px;
   height: 72px;
@@ -298,7 +259,7 @@
   left: 9px;
 }
 
-.home-wifi-offload .overlap-2 {
+.home .overlap-2 {
   position: relative;
   width: 146px;
   height: 59px;
@@ -306,7 +267,7 @@
   left: 7px;
 }
 
-.home-wifi-offload .content {
+.home .content {
   position: absolute;
   top: 18px;
   left: 0;
@@ -319,7 +280,7 @@
   white-space: nowrap;
 }
 
-.home-wifi-offload .title {
+.home .title {
   position: absolute;
   width: 146px;
   top: 0;

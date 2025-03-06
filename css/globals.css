@@ -6,7 +6,7 @@
 html{
     margin: 0px;
     height: 100%;  
-}
+  }
 body {
   margin: 0px;
   height: 100%;
@@ -14,6 +14,15 @@ body {
   height: 320px;
   transform: rotate(90deg) translateY(-100%);
   transform-origin:top left;    
+}
+.mock {
+  margin: 0px;
+  height: 100%;
+  width: 240px;
+  height: 320px;
+  background-image: url(../img/bg.png);
+
+
 }
 /* a blue color as a generic focus style */
 button:focus-visible {
