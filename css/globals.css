@@ -15,26 +15,3 @@ body {
   transform: rotate(90deg) translateY(-100%);
   transform-origin:top left;    
 }
-.mock {
-  margin: 0px;
-  height: 100%;
-  width: 160px;
-  height: 320px;
-  background-image: url(../img/bg.png);
-}
-.mock2 {
-  margin: 0px;
-  height: 100%;
-  width: 240px;
-  height: 320px;
-  background-image: url(../img/bg.jpg);
-}
-
-/* a blue color as a generic focus style */
-button:focus-visible {
-  outline: 2px solid #4a90e2 !important;
-  outline: -webkit-focus-ring-color auto 5px !important;
-}
-a {
-  text-decoration: none;
-}
