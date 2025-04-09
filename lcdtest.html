@@ -2,90 +2,58 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="css/globals.css" />
+    <link rel="stylesheet" href="./css/globals.css" />
+    <link rel="stylesheet" href="./css/styleguide.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
+  
   <body>
-    <div data-layer="Home" style="width: 240px; height: 320px; position: relative; background: black; overflow: hidden; border-radius: 8px">
-      <div data-layer="Ellipse 577" style="width: 224px; height: 224px; left: 62px; top: 122px; position: absolute; background: #4BA1C4; box-shadow: 212.05332946777344px 212.05332946777344px 212.05332946777344px; border-radius: 9999px; filter: blur(106.03px)"></div>
-      <div data-layer="Ellipse 575" style="width: 120px; height: 120px; left: 151px; top: 107px; position: absolute; background: #183867; box-shadow: 113.5999984741211px 113.5999984741211px 113.5999984741211px; border-radius: 9999px; filter: blur(56.80px)"></div>
-      <div data-layer="Ellipse 573" style="width: 201px; height: 201px; left: -81px; top: 145px; position: absolute; background: #C21548; box-shadow: 211.42222595214844px 211.42222595214844px 211.42222595214844px; border-radius: 9999px; filter: blur(105.71px)"></div>
-      <div data-layer="Page Control" style="padding: 1px; left: 95px; top: 290px; position: absolute; overflow: hidden; justify-content: flex-start; align-items: center; gap: 16px; display: inline-flex">
-        <div data-layer="Glyphs / Home" style="width: 16px; height: 16px; position: relative">
-          <div data-svg-wrapper data-layer="Glyphs / Home" style="left: 0px; top: 0px; position: absolute">
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M7.59075 0.806447C7.83149 0.619205 8.16859 0.619205 8.40933 0.806447L14.4093 5.47311C14.5717 5.59942 14.6667 5.79362 14.6667 5.99935V13.3327C14.6667 13.8631 14.456 14.3718 14.0809 14.7469C13.7058 15.122 13.1971 15.3327 12.6667 15.3327H3.33337C2.80294 15.3327 2.29423 15.122 1.91916 14.7469C1.54409 14.3718 1.33337 13.8631 1.33337 13.3327V5.99935C1.33337 5.79362 1.42836 5.59942 1.59075 5.47311L7.59075 0.806447ZM2.66671 6.32541V13.3327C2.66671 13.5095 2.73695 13.6791 2.86197 13.8041C2.98699 13.9291 3.15656 13.9993 3.33337 13.9993H12.6667C12.8435 13.9993 13.0131 13.9291 13.1381 13.8041C13.2631 13.6791 13.3334 13.5095 13.3334 13.3327V6.32541L8.00004 2.17726L2.66671 6.32541Z" fill="white"/>
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M5.33337 7.99967C5.33337 7.63148 5.63185 7.33301 6.00004 7.33301H10C10.3682 7.33301 10.6667 7.63148 10.6667 7.99967V14.6663C10.6667 15.0345 10.3682 15.333 10 15.333C9.63185 15.333 9.33337 15.0345 9.33337 14.6663V8.66634H6.66671V14.6663C6.66671 15.0345 6.36823 15.333 6.00004 15.333C5.63185 15.333 5.33337 15.0345 5.33337 14.6663V7.99967Z" fill="white"/>
-          </svg>
+    <div class="home-data-usage">
+      <div class="div">
+        <div class="page-control">
+          <img class="img" src="img/home.svg" />
+          <img class="img" src="img/wi-fi.svg" />
+          <img class="img" src="img/alerts.svg" />
+        </div>
+        <div class="status-bar">
+          <div class="frame">
+            <img class="cellular-connection" src="img/cellular-connection.svg" />
+            <div class="text-wrapper">Vodafone 5G</div>
+          </div>
+          <div class="ion-battery-full">
+            <div class="overlap-group">
+              <img class="vector" src="img/vector.svg" />
+              <img class="vector-2" src="img/image.svg" />
+              <div class="text-wrapper-2">100</div>
+            </div>
+            <img class="vector-3" src="img/vector-2.svg" />
           </div>
         </div>
-        <div data-svg-wrapper data-layer="Glyphs / Alerts" data-style="Outlined" data-type="Information" style="position: relative">
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <g opacity="0.3">
-        <path d="M8.00671 10.667V8.00033M8.00671 5.33366H8.00005" stroke="white" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M2 8C2 8.78793 2.15519 9.56815 2.45672 10.2961C2.75825 11.0241 3.20021 11.6855 3.75736 12.2426C4.31451 12.7998 4.97595 13.2417 5.7039 13.5433C6.43185 13.8448 7.21207 14 8 14C8.78793 14 9.56815 13.8448 10.2961 13.5433C11.0241 13.2417 11.6855 12.7998 12.2426 12.2426C12.7998 11.6855 13.2417 11.0241 13.5433 10.2961C13.8448 9.56815 14 8.78793 14 8C14 6.4087 13.3679 4.88258 12.2426 3.75736C11.1174 2.63214 9.5913 2 8 2C6.4087 2 4.88258 2.63214 3.75736 3.75736C2.63214 4.88258 2 6.4087 2 8Z" stroke="white" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
-        </g>
-        </svg>
-        </div>
-      </div>
-      <div data-layer="Status Bar" style="width: 240px; padding-left: 16px; padding-right: 16px; padding-top: 12px; padding-bottom: 12px; left: 0px; top: 0px; position: absolute; justify-content: space-between; align-items: flex-start; display: inline-flex">
-        <div data-layer="Frame 1707480068" style="justify-content: flex-start; align-items: center; gap: 4px; display: flex">
-          <div data-svg-wrapper data-layer="Cellular Connection" style="position: relative">
-          <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M19.2 1.125C19.2 0.50368 18.7224 0 18.1333 0H17.0667C16.4776 0 16 0.50368 16 1.125V10.875C16 11.4963 16.4776 12 17.0667 12H18.1333C18.7224 12 19.2 11.4963 19.2 10.875V1.125ZM11.7667 2.4H12.8333C13.4224 2.4 13.9 2.91577 13.9 3.552V10.848C13.9 11.4842 13.4224 12 12.8333 12H11.7667C11.1776 12 10.7 11.4842 10.7 10.848V3.552C10.7 2.91577 11.1776 2.4 11.7667 2.4ZM7.43333 5H6.36667C5.77756 5 5.3 5.52233 5.3 6.16667V10.8333C5.3 11.4777 5.77756 12 6.36667 12H7.43333C8.02244 12 8.5 11.4777 8.5 10.8333V6.16667C8.5 5.52233 8.02244 5 7.43333 5ZM2.13333 7.4H1.06667C0.477563 7.4 0 7.91487 0 8.55V10.85C0 11.4851 0.477563 12 1.06667 12H2.13333C2.72244 12 3.2 11.4851 3.2 10.85V8.55C3.2 7.91487 2.72244 7.4 2.13333 7.4Z" fill="white"/>
-          </svg>
+        <div class="frame-2">
+          <div class="group">
+            <div class="overlap">
+              <div class="overlap-group-wrapper">
+                <div class="battery-pecentage-wrapper"><div class="battery-pecentage">15</div></div>
+              </div>
+              <div class="glyphs-devices-wrapper"><img class="glyphs-devices" src="img/devices.svg" /></div>
+            </div>
           </div>
-          <div data-layer="Vodafone 5G" style="color: white; font-size: 13px; font-family: SF Pro Text; font-weight: 400; line-height: 16px; word-wrap: break-word">Vodafone 5G</div>
-        </div>
-        <div data-layer="Frame 1707480067" style="justify-content: flex-start; align-items: center; gap: 4px; display: flex">
-          <div data-layer="Border" style="width: 25px; height: 13px; opacity: 0.35; border-radius: 4.30px; border: 1px white solid"></div>
-          <div data-svg-wrapper data-layer="Cap">
-          <svg width="2" height="5" viewBox="0 0 2 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path opacity="0.4" d="M0.671997 0.166992V4.16699C1.47673 3.82822 2.00004 3.04013 2.00004 2.16699C2.00004 1.29386 1.47673 0.505769 0.671997 0.166992Z" fill="white"/>
-          </svg>
+          <div class="overlap-wrapper">
+            <div class="overlap-2">
+              <img class="ellipse" src="img/ellipse-570.svg" />
+              <div class="frame-3"></div>
+              <div class="battery-pecentage-2">7.5</div>
+              <div class="battery-pecentage-3">GB</div>
+            </div>
           </div>
-          <div data-layer="Capacity" style="width: 21px; height: 9px; background: white; border-radius: 2.50px"></div>
-          <div data-layer="100%" style="color: white; font-size: 13px; font-family: SF Pro Text; font-weight: 400; line-height: 16px; word-wrap: break-word">100%</div>
-        </div>
-      </div>
-      <div data-layer="Frame 1707480704" style="width: 92px; height: 92px; left: 132px; top: 60px; position: absolute; background: black; overflow: hidden; border-radius: 70.77px">
-        <div data-svg-wrapper data-layer="Frame 1707480702" style="left: 4px; top: 3.50px; position: absolute">
-        <svg width="84" height="85" viewBox="0 0 84 85" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect y="0.5" width="84" height="84" rx="42" fill="#000103"/>
-        </svg>
-        </div>
-        <div data-layer="Battery Pecentage" style="left: 23px; top: 18px; position: absolute; text-align: center; justify-content: center; display: flex; flex-direction: column; color: white; font-size: 32px; font-family: Roboto; font-weight: 600; line-height: 46.80px; word-wrap: break-word">7.5</div>
-        <div data-layer="Ellipse 572" style="width: 92px; height: 92px; left: 0px; top: 0px; position: absolute; background: linear-gradient(0deg, #242424 0%, #242424 100%), linear-gradient(180deg, #993B89 0%, #BE255E 29%, #3F71C8 67%, #139DFF 100%); border-radius: 9999px"></div>
-        <div data-layer="Ellipse 571" style="width: 92px; height: 92px; left: 0px; top: 0px; position: absolute; background: linear-gradient(0deg, #68CE67 0%, #68CE67 100%), linear-gradient(180deg, #993B89 0%, #BE255E 29%, #3F71C8 67%, #139DFF 100%); border-radius: 9999px"></div>
-        <div data-layer="Battery Pecentage" style="width: 18px; left: 37px; top: 57px; position: absolute; text-align: center; justify-content: center; display: flex; flex-direction: column; color: white; font-size: 14px; font-family: Roboto; font-weight: 400; word-wrap: break-word">GB</div>
-      </div>
-      <div data-layer="Frame 1707480701" style="width: 208px; padding: 6px; left: 16px; top: 176px; position: absolute; background: rgba(255, 255, 255, 0.15); border-radius: 24px; backdrop-filter: blur(20px); justify-content: flex-start; align-items: center; gap: 6px; display: inline-flex">
-        <div data-layer="Frame 1707480696" style="flex: 1 1 0; padding-left: 4px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: inline-flex">
-          <div data-layer="NETGEAR12" style="align-self: stretch; color: white; font-size: 16px; font-family: Roboto; font-weight: 500; letter-spacing: 0.07px; word-wrap: break-word">NETGEAR12</div>
-          <div data-layer="Scan to join" style="color: white; font-size: 16px; font-family: Roboto; font-weight: 400; letter-spacing: 0.07px; word-wrap: break-word">Scan to join</div>
-        </div>
-        <div data-layer="Frame 1707480698" style="width: 80px; height: 80px; position: relative; overflow: hidden; border-radius: 17.30px">
-          <img data-layer="9781118370711-fg0101_fmt 1" style="width: 81.08px; height: 81.08px; left: -0.57px; top: -1.08px; position: absolute" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAABO1SURBVHgB7ZwFrOS21se921tmZmbulrkqs8oolVTc4rYqgwqqSiozMzMzb5mZmZkZ1p9/590TnXFsT2Zub7/3pP1L0WRsx3ac48PJAB/gOgDNBwwY0HFdN/3q1Gy5bRdfY2/Fton/l+pS/0sYkFtAHShVreWpG+52Af9XMdANR58wfAH7iJ64YNiwYe6bb77p81Ycb7zxpI8ffvjB/fnnn1U525y6gQMHul9++UUOzscdd1yp13Ep//XXX+V87LHHdiOMMEKR9/7999/u+++/bykfZZRR3GijjSb1fb2nnp4eN9ZYY9X78BHCAvq55prLjznmmF0fM8wwg//pp5+kv+23375W/+qrr0rdueeeK//D4vnff/+9ZR533nln1f7pp5+WeeVA3bPPPlsbZ88995S68DD8OOOM06d7WmKJJZJz6NEnqGCFefI//vij6xY8dRU0f/zxR60vqIW6sGhSN+KIIyYFkl7XTjhRx86Jx6F/6jjCA3V//fWX6xb0nZpDT2lySy+9tNtiiy1cU9x9993uwgsvrP5baT3rrLO6ffbZR/6fcMIJ8pCmnHJKac/Nb7XVVlK3zTbbuMUXX7zWN3WBKt0ll1wi2+nMM8+UX8Xkk08ufTHW3nvv7T7++OPkHDfddFO33HLLuaYIu8Tdf//9+QaQpT3AjDPOCEn6rbfeulZnz+1/jrAwct3EE0/sf/75ZykLCyNliy22WNVu9tlnl7Jtt91W/rN9AxVKGdsa3HHHHfKf46mnnpIy7X+kkUbyga/WtrEiPCxpt8suu8j/8LB8WGwpO/XUU30n2HzzzX14KH6eeeZJ1vc0Yay0ef7556stEFPtTDPN5AKfSF431VRTufnmm8/NPPPMWUq35e+//74LPM999NFHbv7555exAv9yOXzyySfu008/FSETblLaBx4sbGSaaabJjoVge+GFF5J90gdj67kvKdQxFaUo8PPPP/ejjz56RRHx8cwzz2QpMPC7Wv9Kgdttt52UBT4pFMiT5qBu+eWXr1F5igJ32GEHuWbQoEFV2/g6S4GnnXaa1D300EPZ+xl11FGrfjbbbDMpy1HgQN/Qkiu1a8fgc/3oeZM5lPqJ65veUw6+A4uqx/UzDjnkEHfjjTfWythejz/+uGwVhMHQoUNFGh944IHu5ptvbmmPIHvxxRfdZ599Jv/ZfgsvvLCcs+V9pEVsuOGG7s0333QbbLCB22OPPVx/oidn71r0RQGFl4Ut3lIGP5xtttncE088IXUs3Lzzziu/E0wwQW3Ml19+uaUP5hv3aQG/fu2111zQ3frdNu93CkQVYmE+/PDDGmUp0AtRS7BIpptuOjd48GA3/fTTt7RhIQLvlEVJYeSRR3aBv8n5CiusIOOiDvV1O7dDj06uv7DxxhvL8fDDD2cXED1wxx13lPPzzjvP7b///nLuI9fTMsss444//vja9bSBIpH2IFg6ldT/VxawHbjBCSecUOzTTtCJcFF899137quvvnJBEroxxhhDylBjGB9QF8P32roKzmmHKhO0h+Q4qD3aZwyouSkaLeBEE00kTDx3050M2A577bWXUGBQY9x1110nZddff70s0jnnnOOmnXba2jVqyuk5WxgEO9wdeeSRyXEWWGAB9/bbbyfvSXW/JjuzuIC2A6jBbomU2pDaLu3Un9g5i4TFfrbUDiVp+6BfJj3Itoxrfa8dHo+n18BvU8p/PO92i9iTuxDce++9ogo0BapDjFNOOcU9+OCDbrLJJnNXXXWVlB1zzDFi3CMwrrzyShEim2yyiSzezjvvLILivffec+utt57cwKGHHuqCcl/1iVDC7mUbXnDBBe6WW25xU0wxhfQLdtttNxFa8QJwb7S/7777XFOgahWR0q7VEun2UEsEqC286KKLVv3nLBGXsYWffPJJKctZIpQFNajqf5ZZZsnawt0eWVs4saBu7rnnrvSxbgBztp4SC3gV6gjOyfHHH9899thjQoHKwxTUL7LIInKOs5V5MSfKoDwoA+pCz4znT/9cA4XrjkLxZpxugVRPIl7RkuOyG6QoUIFd6qInrRRYmtdvv/1WUZTazpYC42v+6XuyqMVELDO2h33COZTqYNp9geVlKQGWYvZa1p96bnILr7LKKuImWmONNdzBBx/svv32WymzkhHT6/zzz5f266+/vnv99ddrnTPxwOfEtHrppZdcCBW01AcfodRZBH+dO+6441ygWHf66ae7JmCcN954o+r/6quvFheb3g+eabY+bGLfffdtEYzUI8BQ07iP/fbbT9ovuOCC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" />
-        </div>
-      </div>
-      <div data-svg-wrapper data-layer="Ellipse 567" style="left: 16px; top: 62px; position: absolute">
-      <svg width="91" height="91" viewBox="0 0 91 91" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M89 45.5C89 69.5244 69.5244 89 45.5 89C21.4756 89 2 69.5244 2 45.5C2 21.4756 21.4756 2 45.5 2C69.5244 2 89 21.4756 89 45.5Z" fill="black" stroke="url(#paint0_linear_650_5006)" stroke-width="4"/>
-      <defs>
-      <linearGradient id="paint0_linear_650_5006" x1="45.5" y1="0" x2="45.5" y2="91" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#87C3E2"/>
-      <stop offset="1" stop-color="#3374FF"/>
-      </linearGradient>
-      </defs>
-      </svg>
-      </div>
-      <div data-layer="Battery Pecentage" style="left: 41px; top: 84px; position: absolute; text-align: center; justify-content: center; display: flex; flex-direction: column; color: white; font-size: 36.40px; font-family: Roboto; font-weight: 500; line-height: 46.80px; word-wrap: break-word">15</div>
-      <div data-layer="Ellipse 568" style="width: 32px; height: 32px; left: 75px; top: 121px; position: absolute; background: #3374FF; border-radius: 9999px"></div>
-      <div data-layer="Glyphs / Devices" data-type="Devices" style="width: 20px; height: 20px; left: 81px; top: 127px; position: absolute">
-        <div data-svg-wrapper data-layer="Devices" style="left: 0px; top: 0px; position: absolute">
-        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4882 6.32116C10.8007 6.0086 11.2246 5.83301 11.6667 5.83301H16.6667C17.1087 5.83301 17.5326 6.0086 17.8452 6.32116C18.1577 6.63373 18.3333 7.05765 18.3333 7.49967V15.833C18.3333 16.275 18.1577 16.699 17.8452 17.0115C17.5326 17.3241 17.1087 17.4997 16.6667 17.4997H11.6667C11.2246 17.4997 10.8007 17.3241 10.4882 17.0115C10.1756 16.699 10 16.275 10 15.833V7.49967C10 7.05765 10.1756 6.63372 10.4882 6.32116ZM16.6667 7.49967H11.6667L11.6667 15.833H16.6667L16.6667 7.49967Z" fill="white"/>
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.15478 2.98816C2.46734 2.6756 2.89126 2.5 3.33329 2.5H14.1666C14.6087 2.5 15.0326 2.67559 15.3451 2.98816C15.6577 3.30072 15.8333 3.72464 15.8333 4.16667C15.8333 4.6269 15.4602 5 15 5C14.5397 5 14.1666 4.6269 14.1666 4.16667H3.33329V14.1667H8.33329C8.79353 14.1667 9.16663 14.5398 9.16663 15C9.16663 15.4602 8.79353 15.8333 8.33329 15.8333H3.33329C2.89127 15.8333 2.46734 15.6577 2.15478 15.3452C1.84222 15.0326 1.66663 14.6087 1.66663 14.1667V4.16667C1.66663 3.72464 1.84222 3.30072 2.15478 2.98816ZM12.5 7.5C12.5 7.03976 12.8731 6.66667 13.3333 6.66667H15C15.4602 6.66667 15.8333 7.03976 15.8333 7.5C15.8333 7.96024 15.4602 8.33333 15 8.33333H13.3333C12.8731 8.33333 12.5 7.96024 12.5 7.5Z" fill="white"/>
-        </svg>
+          <div class="frame-4">
+            <div class="frame-5">
+              <div class="text-wrapper-3">2.4 Ghz</div>
+              <div class="text-wrapper-4">NETGEAR12</div>
+              <div class="text-wrapper-5">password123</div>
+            </div>
+            <div class="image-wrapper"><img class="image" src="img/image-2-1.png" /></div>
+          </div>
         </div>
       </div>
     </div>
