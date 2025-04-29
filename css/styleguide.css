@@ -1,8 +1,85 @@
 :root {
+  --grayscalewhite: rgba(255, 255, 255, 1);
+  --basetext: rgba(242, 242, 242, 1);
   --m7-m1-font-family: "Roboto", Helvetica;
   --m7-m1-font-weight: 700;
   --m7-m1-font-size: 23px;
   --m7-m1-letter-spacing: 0.07000000029802322px;
   --m7-m1-line-height: 26px;
   --m7-m1-font-style: normal;
+  --ios-disclaimer-font-family: "SF Pro Text", Helvetica;
+  --ios-disclaimer-font-weight: 400;
+  --ios-disclaimer-font-size: 13px;
+  --ios-disclaimer-letter-spacing: -0.07999999821186066px;
+  --ios-disclaimer-line-height: 16px;
+  --ios-disclaimer-font-style: normal;
+  --m3-body-medium-font-family: "Roboto", Helvetica;
+  --m3-body-medium-font-weight: 400;
+  --m3-body-medium-font-size: 14px;
+  --m3-body-medium-letter-spacing: 0.25px;
+  --m3-body-medium-line-height: 20px;
+  --m3-body-medium-font-style: normal;
+  --m3-headline-small-font-family: "Roboto", Helvetica;
+  --m3-headline-small-font-weight: 400;
+  --m3-headline-small-font-size: 24px;
+  --m3-headline-small-letter-spacing: 0px;
+  --m3-headline-small-line-height: 32px;
+  --m3-headline-small-font-style: normal;
+  --title3-emphasized-font-family: "SF Pro", Helvetica;
+  --title3-emphasized-font-weight: 400;
+  --title3-emphasized-font-size: 20px;
+  --title3-emphasized-letter-spacing: -0.44999998807907104px;
+  --title3-emphasized-line-height: 25px;
+  --title3-emphasized-font-style: normal;
+  --m3-body-large-font-family: "Roboto", Helvetica;
+  --m3-body-large-font-weight: 400;
+  --m3-body-large-font-size: 16px;
+  --m3-body-large-letter-spacing: 0.5px;
+  --m3-body-large-line-height: 24px;
+  --m3-body-large-font-style: normal;
+  --m3-schemes-shadow: rgba(0, 0, 0, 1);
+  --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+  --m3-schemes-inverse-surface: rgba(46, 48, 57, 1);
+  --m3-schemes-on-background: rgba(25, 27, 35, 1);
+  --m3-schemes-on-surface: rgba(25, 27, 35, 1);
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-m3-mode="light">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-m3-mode="light"] {
+  --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+  --m3-schemes-inverse-surface: rgba(46, 48, 57, 1);
+  --m3-schemes-on-background: rgba(25, 27, 35, 1);
+  --m3-schemes-on-surface: rgba(25, 27, 35, 1);
+}
+
+[data-m3-mode="dark"] {
+  --m3-schemes-on-primary: rgba(0, 39, 126, 1);
+  --m3-schemes-inverse-surface: rgba(226, 225, 237, 1);
+  --m3-schemes-on-background: rgba(226, 225, 237, 1);
+  --m3-schemes-on-surface: rgba(226, 225, 237, 1);
+}
+
+[data-m3-mode="light-high-contrast"] {
+  --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+  --m3-schemes-inverse-surface: rgba(46, 48, 57, 1);
+  --m3-schemes-on-background: rgba(25, 27, 35, 1);
+  --m3-schemes-on-surface: rgba(0, 0, 0, 1);
+}
+
+[data-m3-mode="light-medium-contrast"] {
+  --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+  --m3-schemes-inverse-surface: rgba(46, 48, 57, 1);
+  --m3-schemes-on-background: rgba(25, 27, 35, 1);
+  --m3-schemes-on-surface: rgba(25, 27, 35, 1);
 }
