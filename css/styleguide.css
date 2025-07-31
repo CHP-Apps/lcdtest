@@ -5,11 +5,52 @@
   --m7-m1-letter-spacing: 0.07000000029802322px;
   --m7-m1-line-height: 26px;
   --m7-m1-font-style: normal;
-  --title-body-medium-14-semibold-font-family: "Roboto", Helvetica;
-  --title-body-medium-14-semibold-font-weight: 600;
-  --title-body-medium-14-semibold-font-size: 14px;
-  --title-body-medium-14-semibold-letter-spacing: 0px;
-  --title-body-medium-14-semibold-line-height: 20px;
-  --title-body-medium-14-semibold-font-style: normal;
-  --collection-1-white: rgba(252, 252, 253, 1);
+  --ios-disclaimer-font-family: "SF Pro Text", Helvetica;
+  --ios-disclaimer-font-weight: 400;
+  --ios-disclaimer-font-size: 13px;
+  --ios-disclaimer-letter-spacing: -0.07999999821186066px;
+  --ios-disclaimer-line-height: 16px;
+  --ios-disclaimer-font-style: normal;
+  --sematic-colors-background-backgroundprimary: var(--global-grayscale-gray50);
+  --sematic-colors-content-contentprimary: var(--global-grayscale-gray600);
+  --sematic-colors-content-contenttertiary: var(--global-grayscale-gray300);
+  --sematic-colors-background-background-backgroundaccentdark: var(
+    --global-accent-dark-accentdark800
+  );
+  --sematic-colors-background-backgroundsecondary: var(--global-grayscale-gray0);
+  --global-grayscale-gray50: rgba(241, 245, 249, 1);
+  --global-grayscale-gray600: rgba(19, 25, 37, 1);
+  --global-grayscale-gray300: rgba(148, 163, 184, 1);
+  --global-accent-dark-accentdark800: rgba(0, 23, 128, 1);
+  --global-grayscale-gray900: rgba(0, 0, 0, 1);
+  --global-grayscale-gray0: rgba(255, 255, 255, 1);
+  --global-grayscale-gray200: rgba(203, 213, 225, 1);
+  --global-accent-dark-accentdark500: rgba(49, 70, 181, 1);
+}
+/*
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+<body data-sematic-colors-mode="light">
+    <!-- the rest of your content -->
+</body>
+You can apply the theme on any DOM node, not just the `body`
+*/
+[data-sematic-colors-mode="light"] {
+  --sematic-colors-background-backgroundprimary: var(--global-grayscale-gray50);
+  --sematic-colors-content-contentprimary: var(--global-grayscale-gray600);
+  --sematic-colors-content-contenttertiary: var(--global-grayscale-gray300);
+  --sematic-colors-background-background-backgroundaccentdark: var(
+    --global-accent-dark-accentdark800
+  );
+  --sematic-colors-background-backgroundsecondary: var(--global-grayscale-gray0);
+}
+[data-sematic-colors-mode="dark"] {
+  --sematic-colors-background-backgroundprimary: var(--global-grayscale-gray900);
+  --sematic-colors-content-contentprimary: var(--global-grayscale-gray0);
+  --sematic-colors-content-contenttertiary: var(--global-grayscale-gray200);
+  --sematic-colors-background-background-backgroundaccentdark: var(
+    --global-accent-dark-accentdark500
+  );
+  --sematic-colors-background-backgroundsecondary: var(
+    --global-grayscale-gray600
+  );
 }
